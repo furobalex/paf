@@ -1,7 +1,8 @@
+
 /* 
    Code d'exemple pour le moteur couran continu de la crémaillere
    Auteurs : Jeremy et Aurélien
-   Derniere modif : 22/07/2012
+   Derniere modif : 23/07/2012 par Jérémy
 */
 
 #include "AFMotor.h"

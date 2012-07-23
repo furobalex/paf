@@ -33,8 +33,8 @@ void initialisation()
     moteur.setSpeed(SPEED);
     pinMode(A0, INPUT);
     digitalWrite(A0, HIGH);
-    pinMode(A5, INPUT);
-    digitalWrite(A5, HIGH);// pull up sur pin 2
+    pinMode(A1, INPUT);
+    digitalWrite(A1, HIGH);// pull up sur pin 2
 }
 
 bool paf()
@@ -64,7 +64,7 @@ bool paf()
     break;
     
     case 4:
-    if(digitalRead(A5)==LOW)
+    if(digitalRead(A1)==LOW)
     { 
       etat=0;
       Stop();
