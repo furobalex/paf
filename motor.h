@@ -8,7 +8,7 @@
 
   #define MOTEUR
   
-    #define SPEED 50
+    #define SPEED 100
     #define PIN_CREMAILLERE 3  // chiffre correspondant au pin M4
     
     void avancerCremaillere();
